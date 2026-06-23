@@ -1,29 +1,48 @@
-# PMW-day1: Personal Portfolio & 3D Reconstruction Research
+# PreserveMy.World - Day 1 3D Reconstruction Research
 
-## 👋 Introduction
-Hello! I'm Hamza Rana, a BS Computer Science student (4th Semester) at FAST NUCES. I specialize in full-stack development, IT infrastructure, and I am passionate about Artificial Intelligence and its applications in preserving history.
+## Mission Statement
+PreserveMy.World is dedicated to the digital preservation of our global heritage. Through advanced 3D reconstruction and immersive technologies, we aim to document, share, and safeguard cultural and historical artifacts for future generations, ensuring they are accessible to anyone, anywhere.
 
-## 🏛️ PMW Track
-This repository was created as part of the **PreserveMy.World** initiative. Our track focuses on exploring **3D Reconstruction** techniques to digitize and preserve cultural heritage globally.
+## Table of Contents
+- [Mission Statement](#mission-statement)
+- [Setup Instructions](#setup-instructions)
+- [Tools Used](#tools-used)
+- [Project Structure](#project-structure)
 
-## 🚀 What I Built Today
-Today, I built a complete, fully responsive personal portfolio website from scratch using vanilla HTML5, CSS3, and JavaScript. It features a premium dark minimalist design, smooth scroll animations, and showcases my latest technical projects (including my 3D reconstruction plans). I also researched 3D reconstruction techniques, specifically Gaussian Splatting, and drafted my first blog post about it!
-
-## 💻 How to Open the Portfolio
-1. Clone this repository to your local machine:
+## Setup Instructions
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/ranahamza16/PMW-day1.git
-   ```
-2. Navigate into the folder:
-   ```bash
+   git clone <repository-url>
    cd PMW-day1
    ```
-3. Double-click the `index.html` file to open it directly in your default web browser. No complex build tools or servers required!
+2. **Set up the Python Environment:**
+   It is recommended to use Python 3.8+ (Python 3.12+ tested).
+   ```bash
+   python -m venv venv
+   source venv/Scripts/activate # On Windows
+   # source venv/bin/activate # On macOS/Linux
+   ```
+3. **Install Dependencies:**
+   ```bash
+   pip install torch torchvision timm pillow numpy matplotlib opencv-python jupyter
+   ```
+4. **Run the Notebook or Script:**
+   - Execute the script: `python scripts/simple_3d_reconstruction.py`
+   - Or start Jupyter: `jupyter notebook` and open `notebooks/3d_exploration.ipynb`
 
-## ✅ Day 1 Checklist
-- [x] **Set up GitHub**: Profile updated with real name, bio, and picture.
-- [x] **Create PMW-day1**: Repository created and configured.
-- [x] **Build index.html**: Clean, responsive portfolio page built.
-- [x] **Make the README stand out**: Clean structure with checklist added!
-- [x] **Start your 3D reconstruction learning post**: Drafted and ready to be published.
-- [x] **Include experiment evidence**: Planned an experiment using a Gaussian Splatting Colab notebook for this week.
+## Tools Used
+- **Python (3.12+)**: Core programming language
+- **PyTorch & Torchvision**: Deep learning framework for 3D estimation
+- **MiDaS**: Pre-trained model for monocular depth estimation
+- **OpenCV & Pillow**: Image processing libraries
+- **Matplotlib**: Visualization and plotting
+- **Jupyter**: Interactive notebooks
+- **Git & GitHub CLI**: Version control and repository management
+
+## Project Structure
+- `/research`: Documentation and comparisons of 3D reconstruction methods.
+- `/scripts`: Python scripts for running reconstruction models.
+- `/notebooks`: Interactive Jupyter notebooks for step-by-step exploration.
+- `/docs`: Project documentation, learning notes, and blog drafts.
+- `/screenshots`: Saved output visualizations and depth maps.
+- `/outputs`: Logs and raw outputs from script execution.
