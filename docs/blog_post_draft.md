@@ -36,7 +36,7 @@ This technology directly serves our mission. It allows us to retroactively add d
 
 ## Get Involved
 Check out the full Day 1 codebase and PR on our GitHub! 
-- [GitHub Repo](#)
-- [Day 1 Pull Request](#)
+- [GitHub Repo](https://github.com/ranahamza16/PMW-day1)
+- [Day 1 Pull Request](https://github.com/ranahamza16/PMW-day1/pull/1)
 
 Let's preserve the world, one pixel at a time.
