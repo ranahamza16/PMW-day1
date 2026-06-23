@@ -1,0 +1,14 @@
+=== PMW-day1 Submission Summary ===
+
+- GitHub username: [your username]
+- GitHub profile URL: https://github.com/[username]
+- PMW-day1 repo URL: [repo link]
+- PR URL: [PR link]
+- AI tool used: Antigravity [Desktop]
+- 3D method researched: COLMAP, NeRF, Gaussian Splatting, Monocular Depth, SfM
+- Experiment run: Monocular depth estimation with MiDaS
+- Scripts location: /scripts/simple_3d_reconstruction.py
+- Notebook location: /notebooks/3d_exploration.ipynb
+- Blog post status: Draft ready (in /docs/blog_post_draft.md)
+- Tutorial watched: N/A
+- Notes on AI usage: Antigravity researched the 5 methods, created the project structure, wrote the PyTorch/MiDaS depth estimation script and Jupyter notebook, successfully executed the script to generate the depth map, and staged all Git commits. I reviewed the implementation plan, provided the sample image, and handled the GitHub remote pushes and PR creation.
